@@ -15,7 +15,7 @@ remotenode=9.9.9.9    #IP address of the node in the new-target cluster that wil
 remNb=https://9.9.9.10    # the NB IP of the new-target cluster
 lpass=admin   #password of the admin cloud_admin user on the local cluster
 rpass=admin   #password of the admin cloud_admin user on the remote cluster
-rootp="rackattack"   # root password in the remote cluster
+rootp="passwd"   # root password in the remote cluster
 
 
 customproject=no # can be yes or no, if yes is specified, you need to provide the project id for myprojectId, if no is used, the script will use the same project ID for the target as it is on source
